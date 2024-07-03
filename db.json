@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "title": "حمل و نقل"
+    },
+    {
+      "id": "2",
+      "title": "خدمات دیجیتال"
+    },
+    {
+      "id": "3",
+      "title": "غذا و نوشیدنی"
+    }
+  ],
+  "expenses": [
+    {
+      "description": "قهوه",
+      "amount": 3.5,
+      "categoryId": "3",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "date": "2023-10-02",
+      "description": "ناهار در یک کافه",
+      "amount": 15,
+      "categoryId": "3"
+    },
+    {
+      "id": "3",
+      "date": "2023-10-03",
+      "description": "اشتراک موسیقی دیجیتال",
+      "amount": 9.99,
+      "categoryId": "2"
+    },
+    {
+      "description": "سفر با اسنپ",
+      "amount": 2,
+      "categoryId": "1",
+      "id": "e165"
+    },
+    {
+      "description": "هنزفری",
+      "amount": 20,
+      "categoryId": "2",
+      "id": "e622"
+    },
+    {
+      "description": "شام خوردن",
+      "amount": 10,
+      "categoryId": "3",
+      "id": "e440"
+    },
+    {
+      "description": "aaaaa",
+      "amount": 90,
+      "categoryId": "1",
+      "id": "04a2"
+    }
+  ],
+  "budget": [
+    {
+      "id": "1",
+      "date": "2023-10-01",
+      "amount": 296.5
+    },
+    {
+      "id": "2",
+      "date": "2023-10-02",
+      "amount": 281.5
+    },
+    {
+      "id": "3",
+      "date": "2023-10-03",
+      "amount": 271.6
+    },
+    {
+      "id": 4,
+      "date": "2023-10-04",
+      "amount": 251.6
+    },
+    {
+      "id": "1be0",
+      "date": "2024-07-02",
+      "amount": 271.6
+    },
+    {
+      "id": "39ef",
+      "date": "2024-07-02",
+      "amount": 301.6
+    },
+    {
+      "id": "32b8",
+      "date": "2024-07-03",
+      "amount": 271.6
+    },
+    {
+      "id": "4669",
+      "date": "2024-07-03",
+      "amount": 281.6
+    }
+  ]
+}
