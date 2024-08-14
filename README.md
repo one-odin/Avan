@@ -1,30 +1,39 @@
-# A manegament expenses project with React + TypeScript + Vite
+# This is an expense manegament project with CRUD operations built with React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a [React.js](https://react.dev/) project bootstrapped with [Vite](https://vitejs.dev/).
 
-Currently, two official plugins are available:
+## Dependencies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- JSON Server
+- Tailwind, Headlessui and Heroicons(to UI implements)
+- Formik & YUP (to implement forms and validation inputs)
+- Apexcharts
+- Dayjs and Jalaliday (for dates)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+First, run the JSON Server as a development server by this:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+json-server --watch db.json
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Second, to run the front-end :
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+For build: 
+
+```bash
+npm run build
+# or
+yarn run build
+# or
+pnpm run build
+```
