@@ -74,7 +74,7 @@ const ChartBudget: React.FC<ChartBudgetPropType> = ({ allBudget }): JSX.Element 
   const chartSeries = [
     {
       name: "موجودی (دلار)",
-      data: allBudget.map((item) => item.amount),
+      data: allBudget?.map((item) => item.amount),
       dataLabels: {
         enabled: false, // Hide data point labels
       },
