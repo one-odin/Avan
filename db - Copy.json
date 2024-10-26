@@ -36,17 +36,16 @@
       "categoryId": "2"
     },
     {
-      "id": "e165",
       "description": "سفر با اسنپ",
       "amount": 2,
       "date": "2023-10-18",
-      "categoryId": "1"
+      "categoryId": "1",
+      "id": "e165"
     },
     {
       "description": "خرید هنزفری",
       "amount": 20,
       "categoryId": "2",
-      "date": "2023-10-18",
       "id": "e622"
     },
     {
