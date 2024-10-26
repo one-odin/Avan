@@ -2,8 +2,8 @@ import { FunctionComponent, useState } from "react";
 import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from "@headlessui/react";
 import * as yup from "yup";
 import { Formik } from "formik";
-import { showToastSuccess } from "../../utils/ShowToast";
-import { ExpenseType, ExpenseCategory, BudgeListType } from "../../data.type";
+import { showToastSuccess } from "../../../../utils/ShowToast";
+import { ExpenseType, ExpenseCategory, BudgeListType } from "../../../../data.type";
 import dayjs from "dayjs";
 import { PlusIcon } from "@heroicons/react/24/outline";
 
@@ -67,7 +67,7 @@ const AddExpense: FunctionComponent<AddExpenseProp> = ({ allCat, getAllExpenses,
         onClick={() => setShowModalAddExpense(true)}
         className="text-white font-semibold bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-3 py-2.5 text-center me-2 mb-2"
       >
-        <PlusIcon className="inline-block h-5 w-5 me-1"/>
+        <PlusIcon className="inline-block h-5 w-5 me-1" />
         افزودن هزینه جدید
       </button>
       <Transition show={showModalAddExpense}>

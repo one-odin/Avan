@@ -1,4 +1,4 @@
-import { CardType } from "../../data.type";
+import { CardType } from "../../../data.type";
 
 function Card({ children, description, count, title }: CardType): JSX.Element {
   return (

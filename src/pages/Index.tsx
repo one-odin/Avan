@@ -7,14 +7,14 @@ import dayjs from "dayjs";
 import jalaliday from "jalaliday";
 dayjs.extend(jalaliday);
 
-import Card from "../components/Card/Card";
-import CardBudget from "../components/CardBudget/CardBudget";
-import AddExpense from "../components/AddExpense/AddExpense";
+import Card from "../components/modules/Card/Card";
+import CardBudget from "../components/templates/ExpenseManagement/CardBudget/CardBudget";
+import AddExpense from "../components/templates/ExpenseManagement/AddExpense/AddExpense";
 
 import { ExpenseType, ExpenseCategory, BudgeListType } from "../data.type";
-import DeleteExpense from "../components/DeleteExpense/DeleteExpense";
-import EditExpense from "../components/EditExpense/EditExpense";
-import ChartBudget from "../components/ChartBudget/ChartBudget";
+import DeleteExpense from "../components/templates/ExpenseManagement/DeleteExpense/DeleteExpense";
+import EditExpense from "../components/templates/ExpenseManagement/EditExpense/EditExpense";
+import ChartBudget from "../components/templates/ExpenseManagement/ChartBudget/ChartBudget";
 
 const Index: React.FC = () => {
   const [allBudget, setAllBudget] = useState<BudgeListType[]>([]);

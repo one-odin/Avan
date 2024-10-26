@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from "@headlessui/react";
-import { showToastSuccess, showToastError } from "../../utils/ShowToast";
+import { showToastSuccess, showToastError } from "../../../../utils/ShowToast";
 import { TrashIcon } from "@heroicons/react/24/outline";
 import dayjs from "dayjs";
-import { BudgeListType } from "../../data.type";
+import { BudgeListType } from "../../../../data.type";
 
 type DeleteExpenseProp = {
   itemID: string;

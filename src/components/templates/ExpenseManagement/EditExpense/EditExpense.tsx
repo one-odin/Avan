@@ -2,8 +2,8 @@ import { FunctionComponent, useEffect, useState } from "react";
 import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from "@headlessui/react";
 import * as yup from "yup";
 import { Formik } from "formik";
-import { showToastSuccess } from "../../utils/ShowToast";
-import { ExpenseType, ExpenseCategory, BudgeListType } from "../../data.type";
+import { showToastSuccess } from "../../../../utils/ShowToast";
+import { ExpenseType, ExpenseCategory, BudgeListType } from "../../../../data.type";
 import dayjs from "dayjs";
 import { PencilSquareIcon } from "@heroicons/react/24/outline";
 

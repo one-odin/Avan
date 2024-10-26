@@ -1,11 +1,11 @@
-import React, {useState } from "react";
+import React, { useState } from "react";
 import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from "@headlessui/react";
 import { PlusCircleIcon } from "@heroicons/react/24/solid";
 import * as yup from "yup";
 import { Formik } from "formik";
-import Card from "../Card/Card";
-import { showToastSuccess } from "../../utils/ShowToast";
-import { BudgeListType } from "../../data.type";
+import Card from "../../../modules/Card/Card";
+import { showToastSuccess } from "../../../../utils/ShowToast";
+import { BudgeListType } from "../../../../data.type";
 import dayjs from "dayjs";
 
 type CardBudgetProp = {
@@ -14,9 +14,7 @@ type CardBudgetProp = {
 };
 
 const CardBudget: React.FC<CardBudgetProp> = ({ getAllBudge, currentBudget }): JSX.Element => {
-  
   const [showModalBudget, setShowModalBudget] = useState<boolean>(false);
-
 
   // validation input from
   const inputValidationSchema = yup.object().shape({
@@ -38,7 +36,7 @@ const CardBudget: React.FC<CardBudgetProp> = ({ getAllBudge, currentBudget }): J
     });
     if (res.status === 201) {
       showToastSuccess("مبلغ بودجه به روز گردید");
-      getAllBudge()
+      getAllBudge();
       setTimeout(() => {
         setShowModalBudget(false);
       }, 1000);
